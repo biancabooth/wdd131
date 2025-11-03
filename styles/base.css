@@ -16,6 +16,7 @@ header{
     grid-column: 1/4;
     text-align: center;
     
+    
 }
 
 
@@ -43,7 +44,7 @@ h1{
     background-color:var(--primary-color);
     color: var(--secondary-color);
     text-align: center;
-    padding:1rem;
+    padding:2rem;
 }
 nav{
     display:flex;
@@ -52,7 +53,7 @@ nav{
     justify-content: space-around;
     gap: 1rem;
     background-color: var(--secondary-color);
-    padding: 1rem;    
+    padding: 2rem;    
 }
 a{
     text-decoration: none;
