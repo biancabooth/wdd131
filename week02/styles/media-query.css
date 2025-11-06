@@ -2,11 +2,19 @@
 body{
     font-family: "Roboto", sans-serif;
 }  
-header main footer{
+header, main, footer{
     max-width: 640px;
     margin: 1rem auto;
-    border: 1px solid #ddd;
+    border: 1px solid #968d8d;
     padding: 1rem;
-    background-color: blueviolet;
-    color:red;
+    background-color: rgb(169, 110, 225);
 }  
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+section{
+    padding: 1rem;
+    background-color: beige;
+}
